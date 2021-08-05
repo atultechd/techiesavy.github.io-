@@ -6,6 +6,24 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.14rem;
+  background-image : linear-gradient(to right, #00000066, #00000066), url(https://cdn.pixabay.com/photo/2017/09/05/10/20/business-2717066_960_720.jpg);
+
+  /*background-color: #00000066;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  box-sizing: border-box;
+  place-content: center;
+  -webkit-background-clip: text;
+  background-attachment: fixed;
+  height: 100%;
+}
+
 h1{
   font-weight: bold;
   text-align: center;
@@ -13,11 +31,6 @@ h1{
   font-size: 3.5rem;
   color: #ffffff;
 }
-
-.main_div{
-  background-color: #00000066;
-}
-
 .container {
   width: 100%;
   height: 100%;
@@ -36,27 +49,25 @@ b{
 }
 
 .cpp {width: 90%; background-color: #1D8348 ;}
-.c {width: 90%; background-color: #1D8348;}
-.html {width: 80%; background-color: #239B56 ;}
-.css {width: 70%; background-color: #28B463 ;}
-.js {width: 60%; background-color: #2ECC71;}
-.java {width: 40%; background-color: #82E0AA;}
-.dsa {width: 30%; background-color: #ABEBC6;}
+.cpp:hover{box-shadow: 0.5rem 1.0rem #888888; width: 91%;}
 
-body{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.14rem;
-  background-image : url(https://cdn.pixabay.com/photo/2017/09/05/10/20/business-2717066_960_720.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-block-size: 100%;
-  min-inline-size: 100%;
-  box-sizing: border-box;
-  place-content: center;
-  -webkit-background-clip: text;
-  background-attachment: fixed;
-}
+.c {width: 90%; background-color: #1D8348;}
+.c:hover{box-shadow: 0.5rem 1.0rem #888888; width: 91%;}
+
+.html {width: 80%; background-color: #239B56 ;}
+.html:hover{box-shadow: 0.5rem 1.0rem #888888; width: 81%;}
+
+.css {width: 70%; background-color: #28B463 ;}
+.css:hover{box-shadow: 0.5rem 1.0rem #888888; width: 71%;}
+
+.js {width: 50%; background-color: #2ECC71;}
+.js:hover{box-shadow: 0.5rem 1.0rem #888888; width: 51%;}
+
+.java {width: 40%; background-color: #82E0AA;}
+.java:hover{box-shadow: 0.5rem 1.0rem #888888; width: 41%;}
+
+.dsa {width: 30%; background-color: #ABEBC6;}
+.dsa:hover{box-shadow: 0.5rem 1.0rem #888888; width: 31%;}
 
 .redirect{
   text-align: center;
@@ -66,7 +77,7 @@ body{
 .button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 3vmin;
+  font-size: 1.6rem;
   letter-spacing: 0.14rem;
   border-radius: 0.4rem;
   background-color: #0D6EFD;
