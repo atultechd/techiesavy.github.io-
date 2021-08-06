@@ -6,12 +6,8 @@
   box-sizing: border-box;
 }
 
-.main_div{
-  background-color: #00000066;
-}
-
 body{
-  background-image : url(https://cdn.pixabay.com/photo/2017/09/05/10/20/business-2717066_960_720.jpg);
+  background-image : linear-gradient(to right, #00000066, #00000066), url(https://cdn.pixabay.com/photo/2017/09/05/10/20/business-2717066_960_720.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-block-size: 100%;
@@ -31,55 +27,56 @@ body{
   font-weight: bold;
   font-size: 4rem;
   text-align: center;
-  height: 6rem;
-  width: 129rem;
+  height: 15vh;
+  width: 100vw;
   color: #ffffff;
+  padding: auto;
 }
 
 .second{
-  height: 27rem;
-  width: 129rem;
+  height: auto;
+  width: 85vw;
   padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  flex-wrap: wrap;
 }
 
-.second_c1{
-  height: 100%;
-  width: 50%;
-  padding-left: 12rem;
-  padding-right: 3rem; 
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  float: left;
+.second_c1:child{
+  height: 12vh;
+  width: 23vw;
+  padding: auto;
 }
 
-.second_c2{
-  height: 100%;
-  width: 50%;
-  padding-left: 3rem;
-  padding-right: 12rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  float: right;
+.second_c2:first-child{
+  height: 13vh;
+  width: 26vw;
+  padding: auto;
 }
 
-.third{
-  height: 27rem;
-  width: 129rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding-left: 39.5rem;
-  padding-right: 39.5rem;
+.second_c3:second-child{
+  width: 26vw;
+  height: 13vh;
+  padding: auto;
 }
-
 
 img{
-  width:44rem;
-  height: 22rem;
+  width: 30rem;
+  height: 16rem;
+  margin-top: 2vw;
   border-radius: 1rem;
   border: 1px solid #000000;
 }
 
-.fourth{
+img:hover{
+  width: 32rem;
+  height: 17rem;
+  box-shadow: 0.3rem 0.3rem rgba(255,255,255,0.5);
+}
+
+.third{
+  margin-top: 15rem;
   text-align: center;
 }
 
@@ -98,7 +95,7 @@ img{
   transition: all 0.5s;
   cursor: pointer;
   margin: 0.5rem;
-  margin: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .button span {
@@ -106,7 +103,6 @@ img{
   display: inline-block;
   position: relative;
   transition: 0.5s;
-  font-size: 3vmin;
 }
 
 .button span:after {
